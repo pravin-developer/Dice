@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lg"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="418dp"
+        android:layout_height="728dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+
+        <Button
+            android:id="@+id/roller"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="166dp"
+            android:layout_marginRight="166dp"
+            android:layout_marginBottom="203dp"
+            android:background="#FFEB3B"
+            android:onClick="taped"
+            android:text="@string/roll"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="434dp" />
+
+        <ImageView
+            android:id="@+id/img_6"
+            android:layout_width="206dp"
+            android:layout_height="179dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="128dp"
+            android:layout_marginRight="128dp"
+            android:layout_marginBottom="366dp"
+            android:background="#FFC107"
+            app:srcCompat="@drawable/die_6"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="210dp" />
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
